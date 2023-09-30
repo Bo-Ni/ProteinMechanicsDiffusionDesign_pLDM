@@ -1,0 +1,2 @@
+# ProteinMechanicsDiffusionDesign_pLDM
+Prepare for publication, separated from sort_pdb_database_0
