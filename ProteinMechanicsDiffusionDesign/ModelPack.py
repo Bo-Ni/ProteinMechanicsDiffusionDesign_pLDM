@@ -36,7 +36,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 # # --
 # from PD_SpLMxDiff.UtilityPack import prepare_UNet_keys, modify_keys, params
 # ++
-from PD_pLMProbXDiff.UtilityPack import (
+from ProteinMechanicsDiffusionDesign.UtilityPack import (
     prepare_UNet_keys, modify_keys, params
 )
 

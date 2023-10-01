@@ -57,10 +57,10 @@ from fsspec.implementations.local import LocalFileSystem
 # from PD_SpLMxDiff.UtilityPack import get_DSSP_result, string_diff
 # from PD_SpLMxDiff.DataSetPack import pad_a_np_arr
 # ++
-from PD_pLMProbXDiff.ModelPack import (
+from ProteinMechanicsDiffusionDesign.ModelPack import (
     resize_image_to, ProteinDesigner_B,
 )
-from PD_pLMProbXDiff.UtilityPack import (
+from ProteinMechanicsDiffusionDesign.UtilityPack import (
     get_Model_A_error, convert_into_tokens,convert_into_tokens_using_prob,
     decode_one_ems_token_rec, decode_many_ems_token_rec,
     decode_one_ems_token_rec_for_folding, 
@@ -72,7 +72,7 @@ from PD_pLMProbXDiff.UtilityPack import (
     string_diff,
     load_in_pLM,
 )
-from PD_pLMProbXDiff.DataSetPack import (
+from ProteinMechanicsDiffusionDesign.DataSetPack import (
     pad_a_np_arr
 )
 
