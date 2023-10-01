@@ -1671,9 +1671,7 @@ def load_data_set_SS_InSeqToOuSeq(
 # ============================================================
 # convert csv into df: new
 # ============================================================
-# from PD_pLMProbXDiff.UtilityPack import decode_one_ems_token_rec,decode_many_ems_token_rec
-from ProteinMechanicsDiffusionDesign.UtilityPack import decode_one_ems_token_rec,decode_many_ems_token_rec
-
+from PD_pLMProbXDiff.UtilityPack import decode_one_ems_token_rec,decode_many_ems_token_rec
 # # have been moved into UtilityPack
 # def decode_one_ems_token_rec(this_token, esm_alphabet):
 #     # print( (this_token==esm_alphabet.cls_idx).nonzero(as_tuple=True)[0] )
